@@ -6,7 +6,6 @@ from PIL import Image
 from matplotlib import pyplot as plt
 
 
-
 st.title('Top searches')
 left, right = st.columns(2)
 left.markdown("By the user entering the name of the search")
@@ -76,7 +75,7 @@ add_bg_from_url()
 
 
 st.title('รวมไอดี สไตล์การแต่งตัวแนว Y2K.แฟชั่นในตำนาน')
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["หน้าหลัก", "ประวัติ", "ทรงผมสไตล์แนว Y2K.", "การแต่งหน้าสไตล์ Y2K.", "การแต่งตัวสไตล์ Y2K.(ผญ./ผช.)","เครื่องประดับ"])
+tab1, tab2, tab3, tab4, tab5, tab6, = st.tabs(["หน้าหลัก", "ประวัติ", "ทรงผมสไตล์แนว Y2K.", "การแต่งตัวสไตล์ Y2K.(ผญ./ผช.)","เครื่องประดับ", "สอนแต่งภาพสไตล์ Y2K. ในแอป Picsart"])
 
 with tab1:
     st.header("หน้าหลัก")
@@ -153,25 +152,6 @@ with col2:
     image = st.image("https://img.wongnai.com/p/400x0/2022/12/04/3dc91827a7df4ae4a422c99cb60bad79.jpg", width=350)
 
 with tab4:
-    st.header("การแต่งหน้าสไตล์ Y2K.")
-    image = st.image("https://files.vogue.co.th/uploads/41d35a79d965ba879789a81442cfe181.png")
-    st.write("เทรนด์แต่งหน้ามาแรง 2022 ต้องเทรนด์แต่งหน้า Y2K งานฟาดตาเด่นๆ สีตาปังๆ ฉูดฉาดขั้นสุด แบบวัยรุ่นยุค 2000s' จะแต่งออกมาได้ลุคไหนบ้าง วันนี้เรามีไอเดียมาฝากค่ะ เทรนด์แต่งหน้า Y2K แบบจึ้งๆ สับๆ สไตล์วัยรุ่นยุค 2000s' ที่กำลังกลับมาฮิตอยู่ตอนนี้ ก็นึกย้อนกลับไปสมัยที่เรายังแต่งตาโทนฟ้า โทนชมพู กันอยู่ค่ะ แต่ในยุคนี้เราสามารถเลือกโทนสีให้หลากหลายขึ้นได้ แต่ขอแค่แต่งตาเด่นๆ ฉูดฉาดเอาไว้ก่อนเป็นเริ่ด!นอกจากนี้อาจจะมีเพิ่มความกลิตเตอร์กลิตใจ ติดเพชร ติดวิ้ง ให้ฉ่ำๆ ไม่ต้องถึงกับอลังการเหมือนไปงานแฟนซี แต่เอาให้โดดเด่นแบบที่ออกจากบ้านตอนกลางวันได้ก็พอ ถ้ายังนึกไม่ออก ต้องลองไปดูไอเดียกันเล๊ยยยย")
-    col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.image("https://files.vogue.co.th/uploads/2d8ade06698f9c87bc0df8ba927ef6e9.jpg",width=220)
-with col2:
-    st.image("https://files.vogue.co.th/uploads/d5d0d74f111eddebfd90c2912dca3872.jpeg",width=220)
-with col3:
-    st.image("https://s.isanook.com/wo/0/ui/39/197125/256655403_480127986625532_6596872223550072134_n.jpg?ip/convert/w0/q80/jpg",width=220)
-with col1:
-    st.image("https://cheezelooker.com/file_managers/uploads/file_managers/source/2022%20DAILY%20CULTURE/DECEMBER/WEEK%203/Y2K/CheezeLooker%20-%20%20Y2K%207.jpg",width=220)
-with col2:
-    st.image("https://cheezelooker.com/file_managers/uploads/file_managers/source/2022%20DAILY%20CULTURE/DECEMBER/WEEK%203/Y2K/CheezeLooker%20-%20%20Y2K%2013.jpg",width=220)
-with col3:
-    st.image("https://cheezelooker.com/file_managers/uploads/file_managers/source/2022%20DAILY%20CULTURE/DECEMBER/WEEK%203/Y2K/CheezeLooker%20-%20%20Y2K%2014.jpg",width=220)
-
-with tab5:
     st.header("การแต่งตัวสไตล์ Y2K.(ผญ./ผช.)")
     st.subheader("(ผู้หญิง)")
 
@@ -183,14 +163,14 @@ with tab5:
     image = st.image("https://plusprinting.bookplus.co.th/wp-content/uploads/2022/11/Y2K-12.jpg.webp")
     image = st.image("https://digitalmore.co/wp-content/uploads/2022/12/Y2K-14-e1669991629940.jpg")
 
-with tab5:
+with tab4:
     st.subheader("(ผู้ชาย)")
 
     image = st.image("https://www.reviewnews.info/wp-content/uploads/2022/10/%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%95-Y2K.jpg")
     image = st.image("https://files.gqthailand.com/uploads/Cover_Alyx3.jpg")
     image = st.image("https://files.gqthailand.com/uploads/1A04CA71-1127-4616-82C1-486574B363EF.jpeg")
 
-with tab6:
+with tab5:
     st.header("เครื่องประดับ")
     image = st.image("https://cheezelooker.com/file_managers/uploads/file_managers/source/2022%20DAILY%20CULTURE/DECEMBER/WEEK%203/10%20ACCESSORIES/fy2k.jpg")
     option = st.selectbox(
@@ -267,7 +247,16 @@ if x:
             st.image("https://mywearshop.com/wp-content/uploads/2021/08/50226341-1.jpg",width=220)
             st.image("https://ae01.alicdn.com/kf/Sb5d19db15996416492f1f667f855422dq/Cotton-Calf-Socks-Lolita-Y2K-Bow-Pearl-Crystal-Knee-High-Socks-Thigh-High-Loose-Stockings-for.jpg",width=220)
 
-
-
-
-
+with tab6:
+    st.header("สอนแต่งภาพสไตล์ Y2K. ในแอป Picsart")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto,width=1600/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/cover_image/1%281%29_1.png")
+    st.write("1.เลือกรูปที่เราต้องการจะแต่ง แล้วนำไปตัด(ตัดส่วนที่ไม่ต้องการออก) กดเครื่องมือตามในรูปที่วงเอาไว้ด้วยสีน้ำเงินแล้วจากนั้นก็ตัดโดยระบายสีแดงในส่วนที่ต้องการ หรือใครจะนำรูปไปตัดด้วย https://www.remove.bg/ ก็ได้เช่นกันตามที่สะดวกกันเลยเสร็จแล้วกดบันทึกเข้าอัลบั้ม")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto%2Cwidth=1600%2Cheight=900/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/5_1352.png")
+    st.write("2.ในส่วนต่อมาเราจะสร้างพื้นหลังใหม่เป็นหน้าเปล่าแบบในรูป แล้วนำรูปที่เราตัดเอาไว้เสร็จแล้วลงในหน้าที่สร้างใหม่ แล้วย่อขยายรูปปรับขนาดตามต้องการ")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto%2Cwidth=1600%2Cheight=900/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/6_913.png")
+    st.write("3.กดค้นหาสติกเกอร์คีย์เวิร์ด y2k จากนั้นเลือกหาลายที่ชอบและต้องการแล้วจัดองค์ประกอบมุมตามเหมาะสม โดยสติกเกอร์จะมีทั้งอันที่สามารถใช้ได้ฟรีและไม่ฟรีสังเกตจะรูปมงกุฎอยู่มุมล่างขวา")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto%2Cwidth=1600%2Cheight=900/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/7_685.png")
+    st.write("4.การย้ายตำแหน่งสติกเกอร์ให้เรากดไปที่ไอคอนรูปสี่เหลี่ยมแล้วเลือก เลื่อนลง จะเป็นการจัดให้สติกเกอร์ลงไปอยู่ด้านหลัง และหากต้องการให้สติกเกอร์มีความโปร่งใสมากกว่านี้ ให้กดเลื่อนปรับค่าความทึบตรงแถบด้านล่างใต้รูป")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto%2Cwidth=1600%2Cheight=900/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/8_511.png")
+    st.write("5.หากต้องการจะเปลี่ยนสีสติกเกอร์ให้เลือกหาไอคอนสีสันในแถบด้านล่าง แล้วเลื่อนปรับหาสีที่ถูกใจเลยจ้า หากต้องการจะแต่งหน้าหรือเสริมสวยเพิ่มให้ค้นหาสติกเกอร์ในคีย์เวิร์ด Make up ได้เลยชอบปากสีไหน ตาสีอะไร ขนตางอนแค่ไหน จัดได้หมดเลยเอาอยู่ทุกอัน แค่นี้เราก็สามารถแต่งรูปสวยๆได้ไม่ยากแค่ภายในไม่กี่นาทีแล้ว")
+    image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto%2Cwidth=1600%2Cheight=900/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/9_398.png")
