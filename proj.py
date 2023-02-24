@@ -247,6 +247,9 @@ if x:
             st.image("https://mywearshop.com/wp-content/uploads/2021/08/50226341-1.jpg",width=220)
             st.image("https://ae01.alicdn.com/kf/Sb5d19db15996416492f1f667f855422dq/Cotton-Calf-Socks-Lolita-Y2K-Bow-Pearl-Crystal-Knee-High-Socks-Thigh-High-Loose-Stockings-for.jpg",width=220)
 
+    else:
+        st.button('done')
+            
 with tab6:
     st.header("สอนแต่งภาพสไตล์ Y2K. ในแอป Picsart")
     image = st.image("https://img-prod.api-onscene.com/cdn-cgi/image/format=auto,width=1600/https://sls-prod.api-onscene.com/partner_files/trueidintrend/223657/cover_image/1%281%29_1.png")
